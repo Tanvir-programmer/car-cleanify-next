@@ -5,9 +5,9 @@ import React from "react";
 const layout = ({ children }) => {
   return (
     <div>
-      <Navbar></Navbar>
+      
       {children}
-      <Footer></Footer>
+     
     </div>
   );
 };
