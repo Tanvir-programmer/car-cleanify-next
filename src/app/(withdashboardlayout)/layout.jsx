@@ -3,9 +3,9 @@ import React from "react";
 
 const layout = ({ children }) => {
   return (
-    <div>
+    <div className="flex gap-4">
       <DashboardSitebar></DashboardSitebar>
-      {children}
+      <div className="ml-[250px]">{children}</div>
     </div>
   );
 };
